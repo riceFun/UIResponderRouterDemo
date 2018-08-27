@@ -8,7 +8,16 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "RFResponderCell.h"
+#import "RFHeaderView.h"
+
+#import "UIResponder+Router.h"
+#import "RFEventProxy.h"
+#import "ResponderChainName.h"
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,strong) UITableView *tableView;
+@property (nonatomic,strong) RFHeaderView *tableHeaderView;
 
 @end
 
@@ -16,14 +25,73 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:self.tableView];
+    
+    //添加子视图响应关系
+    [[RFEventProxy sharedInstance] addRespondWithTarget:self selector:@selector(cellButtnClick:) key:kRFResponderCellButtonEvent];
+    [[RFEventProxy sharedInstance] addRespondWithTarget:self selector:@selector(cellSelect:) key:kRFResponderCellDidselectEvent];
+    [[RFEventProxy sharedInstance] addRespondWithTarget:self selector:@selector(cellHeaderViewButtonEvent:) key:kRFResponderCellHeaderVeiwButtonEvent];
+}
+
+#pragma mark UIResponder Event
+-(void)cellButtnClick:(NSDictionary *)userInfo{
+    NSLog(@"你点击了button%@",userInfo[@"name"]);
+}
+
+-(void)cellSelect:(NSDictionary *)userInfo{
+    NSLog(@"你点击了整个cell%@",userInfo[@"name"]);
+}
+
+-(void)cellHeaderViewButtonEvent:(NSDictionary *)userInfo{
+    NSLog(@"点击了tableView headerView button");
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark uitableViewdatasource & delegate
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 30;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 44;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    RFResponderCell *cell = [tableView dequeueReusableCellWithIdentifier:@"dddd" forIndexPath:indexPath];
+    [cell updateCell:indexPath];
+    
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [[RFEventProxy sharedInstance] handleEvent:kRFResponderCellDidselectEvent userInfo:@{@"name":indexPath}];
+}
+
+-(void)routerEventName:(NSString *)eventName userInfo:(NSDictionary *)userInfo{
+    [[RFEventProxy sharedInstance] handleEvent:eventName userInfo:userInfo];
+}
+
+#pragma mark getter setter
+-(UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.tableHeaderView = self.tableHeaderView;
+        [_tableView registerClass:[RFResponderCell class] forCellReuseIdentifier:@"dddd"];
+    }
+    return _tableView;
+}
+
+-(RFHeaderView *)tableHeaderView{
+    if (!_tableHeaderView) {
+        _tableHeaderView = [[RFHeaderView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 300)];
+    }
+    return _tableHeaderView;
+}
 
 @end

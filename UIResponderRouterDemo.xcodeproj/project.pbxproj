@@ -16,6 +16,11 @@
 		21E59FB821339DF300B27F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FB721339DF300B27F5C /* main.m */; };
 		21E59FC221339DF300B27F5C /* UIResponderRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FC121339DF300B27F5C /* UIResponderRouterDemoTests.m */; };
 		21E59FCD21339DF300B27F5C /* UIResponderRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FCC21339DF300B27F5C /* UIResponderRouterDemoUITests.m */; };
+		21E59FDC21339E2A00B27F5C /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FDB21339E2A00B27F5C /* UIResponder+Router.m */; };
+		21E59FDF21339ED300B27F5C /* RFResponderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FDE21339ED300B27F5C /* RFResponderCell.m */; };
+		21E59FE62133A3F300B27F5C /* RFEventProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FE52133A3F300B27F5C /* RFEventProxy.m */; };
+		21E59FED2133CF2300B27F5C /* ResponderChainName.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FEC2133CF2300B27F5C /* ResponderChainName.m */; };
+		21E59FF02133E30200B27F5C /* RFHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FEF2133E30200B27F5C /* RFHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		21E59FC821339DF300B27F5C /* UIResponderRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIResponderRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E59FCC21339DF300B27F5C /* UIResponderRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIResponderRouterDemoUITests.m; sourceTree = "<group>"; };
 		21E59FCE21339DF300B27F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E59FDA21339E2A00B27F5C /* UIResponder+Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		21E59FDB21339E2A00B27F5C /* UIResponder+Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		21E59FDD21339ED300B27F5C /* RFResponderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFResponderCell.h; sourceTree = "<group>"; };
+		21E59FDE21339ED300B27F5C /* RFResponderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFResponderCell.m; sourceTree = "<group>"; };
+		21E59FE42133A3F300B27F5C /* RFEventProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFEventProxy.h; sourceTree = "<group>"; };
+		21E59FE52133A3F300B27F5C /* RFEventProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFEventProxy.m; sourceTree = "<group>"; };
+		21E59FEB2133CF2300B27F5C /* ResponderChainName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderChainName.h; sourceTree = "<group>"; };
+		21E59FEC2133CF2300B27F5C /* ResponderChainName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainName.m; sourceTree = "<group>"; };
+		21E59FEE2133E30200B27F5C /* RFHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFHeaderView.h; sourceTree = "<group>"; };
+		21E59FEF2133E30200B27F5C /* RFHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +122,16 @@
 				21E59FA621339DF100B27F5C /* AppDelegate.m */,
 				21E59FA821339DF100B27F5C /* ViewController.h */,
 				21E59FA921339DF100B27F5C /* ViewController.m */,
+				21E59FDA21339E2A00B27F5C /* UIResponder+Router.h */,
+				21E59FDB21339E2A00B27F5C /* UIResponder+Router.m */,
+				21E59FDD21339ED300B27F5C /* RFResponderCell.h */,
+				21E59FDE21339ED300B27F5C /* RFResponderCell.m */,
+				21E59FEE2133E30200B27F5C /* RFHeaderView.h */,
+				21E59FEF2133E30200B27F5C /* RFHeaderView.m */,
+				21E59FE42133A3F300B27F5C /* RFEventProxy.h */,
+				21E59FE52133A3F300B27F5C /* RFEventProxy.m */,
+				21E59FEB2133CF2300B27F5C /* ResponderChainName.h */,
+				21E59FEC2133CF2300B27F5C /* ResponderChainName.m */,
 				21E59FAB21339DF100B27F5C /* Main.storyboard */,
 				21E59FB121339DF300B27F5C /* Assets.xcassets */,
 				21E59FB321339DF300B27F5C /* LaunchScreen.storyboard */,
@@ -265,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E59FDF21339ED300B27F5C /* RFResponderCell.m in Sources */,
 				21E59FAA21339DF100B27F5C /* ViewController.m in Sources */,
+				21E59FF02133E30200B27F5C /* RFHeaderView.m in Sources */,
+				21E59FDC21339E2A00B27F5C /* UIResponder+Router.m in Sources */,
 				21E59FB021339DF100B27F5C /* UIResponderRouterDemo.xcdatamodeld in Sources */,
+				21E59FE62133A3F300B27F5C /* RFEventProxy.m in Sources */,
+				21E59FED2133CF2300B27F5C /* ResponderChainName.m in Sources */,
 				21E59FB821339DF300B27F5C /* main.m in Sources */,
 				21E59FA721339DF100B27F5C /* AppDelegate.m in Sources */,
 			);
