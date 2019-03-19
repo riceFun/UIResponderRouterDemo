@@ -10,7 +10,7 @@
 extern NSString * const kRFResponderCellButtonEvent;
 extern NSString * const kRFResponderCellDidselectEvent;
 extern NSString * const kRFResponderCellHeaderVeiwButtonEvent;
-
+extern NSString * const kRFResponderCellDislikeButtonEvent;
 
 @interface ResponderChainName : NSObject
 

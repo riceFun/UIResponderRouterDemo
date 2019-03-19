@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216D782B21E6130B00537A5B /* RFResponderCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D782A21E6130B00537A5B /* RFResponderCell2.m */; };
+		216D782E21E6189300537A5B /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D782D21E6189300537A5B /* NetWork.m */; };
+		216D783121E61A4400537A5B /* LikeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D783021E61A4400537A5B /* LikeModel.m */; };
+		216D783421E61A7E00537A5B /* LikeCellPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D783321E61A7E00537A5B /* LikeCellPresent.m */; };
+		216DD1A221E3479F006D6207 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1A121E3479F006D6207 /* ViewControllerA.m */; };
+		216DD1A621E34B07006D6207 /* RFEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1A521E34B07006D6207 /* RFEventView.m */; };
+		216DD1AB21E37630006D6207 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1AA21E37630006D6207 /* CustomButton.m */; };
+		216DD1AE21E37673006D6207 /* CustomButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1AD21E37673006D6207 /* CustomButtonViewController.m */; };
+		216DD1B221E42F0F006D6207 /* TwoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1B121E42F0F006D6207 /* TwoViewViewController.m */; };
+		216DD1B521E42F22006D6207 /* RFViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1B421E42F22006D6207 /* RFViewA.m */; };
+		216DD1B821E42F3A006D6207 /* RFViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1B721E42F3A006D6207 /* RFViewB.m */; };
+		216DD1C021E4700D006D6207 /* RFNORespondeStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1BF21E4700D006D6207 /* RFNORespondeStatusViewController.m */; };
+		216DD1C321E47038006D6207 /* RFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1C221E47038006D6207 /* RFLabel.m */; };
+		216DD1CE21E58372006D6207 /* ResponderChainUEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216DD1CD21E58372006D6207 /* ResponderChainUEViewController.m */; };
 		21E59FA721339DF100B27F5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FA621339DF100B27F5C /* AppDelegate.m */; };
 		21E59FAA21339DF100B27F5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FA921339DF100B27F5C /* ViewController.m */; };
 		21E59FAD21339DF100B27F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E59FAB21339DF100B27F5C /* Main.storyboard */; };
@@ -21,6 +35,9 @@
 		21E59FE62133A3F300B27F5C /* RFEventProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FE52133A3F300B27F5C /* RFEventProxy.m */; };
 		21E59FED2133CF2300B27F5C /* ResponderChainName.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FEC2133CF2300B27F5C /* ResponderChainName.m */; };
 		21E59FF02133E30200B27F5C /* RFHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E59FEF2133E30200B27F5C /* RFHeaderView.m */; };
+		9235ADEE183D4471D9FE1102 /* libPods-UIResponderRouterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E47B9E1B299E45072FCA79 /* libPods-UIResponderRouterDemoTests.a */; };
+		ABDD63392836AFB1A380C682 /* libPods-UIResponderRouterDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA69E7D9A8EFA76A884182A /* libPods-UIResponderRouterDemoUITests.a */; };
+		AC7BD7570017B98A66449BE1 /* libPods-UIResponderRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC46546E93029A169D8DCF4 /* libPods-UIResponderRouterDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +58,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216D782921E6130B00537A5B /* RFResponderCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFResponderCell2.h; sourceTree = "<group>"; };
+		216D782A21E6130B00537A5B /* RFResponderCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFResponderCell2.m; sourceTree = "<group>"; };
+		216D782C21E6189300537A5B /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		216D782D21E6189300537A5B /* NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		216D782F21E61A4400537A5B /* LikeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeModel.h; sourceTree = "<group>"; };
+		216D783021E61A4400537A5B /* LikeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeModel.m; sourceTree = "<group>"; };
+		216D783221E61A7E00537A5B /* LikeCellPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeCellPresent.h; sourceTree = "<group>"; };
+		216D783321E61A7E00537A5B /* LikeCellPresent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeCellPresent.m; sourceTree = "<group>"; };
+		216DD1A021E3479F006D6207 /* ViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		216DD1A121E3479F006D6207 /* ViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		216DD1A421E34B07006D6207 /* RFEventView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFEventView.h; sourceTree = "<group>"; };
+		216DD1A521E34B07006D6207 /* RFEventView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFEventView.m; sourceTree = "<group>"; };
+		216DD1A921E37630006D6207 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		216DD1AA21E37630006D6207 /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		216DD1AC21E37673006D6207 /* CustomButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButtonViewController.h; sourceTree = "<group>"; };
+		216DD1AD21E37673006D6207 /* CustomButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonViewController.m; sourceTree = "<group>"; };
+		216DD1B021E42F0F006D6207 /* TwoViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewViewController.h; sourceTree = "<group>"; };
+		216DD1B121E42F0F006D6207 /* TwoViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewViewController.m; sourceTree = "<group>"; };
+		216DD1B321E42F22006D6207 /* RFViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewA.h; sourceTree = "<group>"; };
+		216DD1B421E42F22006D6207 /* RFViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewA.m; sourceTree = "<group>"; };
+		216DD1B621E42F3A006D6207 /* RFViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewB.h; sourceTree = "<group>"; };
+		216DD1B721E42F3A006D6207 /* RFViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewB.m; sourceTree = "<group>"; };
+		216DD1BE21E4700D006D6207 /* RFNORespondeStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFNORespondeStatusViewController.h; sourceTree = "<group>"; };
+		216DD1BF21E4700D006D6207 /* RFNORespondeStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFNORespondeStatusViewController.m; sourceTree = "<group>"; };
+		216DD1C121E47038006D6207 /* RFLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFLabel.h; sourceTree = "<group>"; };
+		216DD1C221E47038006D6207 /* RFLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFLabel.m; sourceTree = "<group>"; };
+		216DD1CC21E58372006D6207 /* ResponderChainUEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderChainUEViewController.h; sourceTree = "<group>"; };
+		216DD1CD21E58372006D6207 /* ResponderChainUEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainUEViewController.m; sourceTree = "<group>"; };
 		21E59FA221339DF100B27F5C /* UIResponderRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIResponderRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E59FA521339DF100B27F5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21E59FA621339DF100B27F5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +113,15 @@
 		21E59FEC2133CF2300B27F5C /* ResponderChainName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainName.m; sourceTree = "<group>"; };
 		21E59FEE2133E30200B27F5C /* RFHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFHeaderView.h; sourceTree = "<group>"; };
 		21E59FEF2133E30200B27F5C /* RFHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFHeaderView.m; sourceTree = "<group>"; };
+		2767EBACDB68ACE1C6FAF2BA /* Pods-UIResponderRouterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemoUITests/Pods-UIResponderRouterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EC46546E93029A169D8DCF4 /* libPods-UIResponderRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIResponderRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E47B9E1B299E45072FCA79 /* libPods-UIResponderRouterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIResponderRouterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C71559EE47F05A08C1DCAAA /* Pods-UIResponderRouterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemoTests/Pods-UIResponderRouterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81B62C47A64D5ABE7B081B0D /* Pods-UIResponderRouterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemoTests/Pods-UIResponderRouterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		94041CD5BC89E19E6E8674FB /* Pods-UIResponderRouterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemoUITests/Pods-UIResponderRouterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD996F730FF752BFB873F71C /* Pods-UIResponderRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemo/Pods-UIResponderRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BBA69E7D9A8EFA76A884182A /* libPods-UIResponderRouterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIResponderRouterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25932D9C31CE11CA135DC58 /* Pods-UIResponderRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIResponderRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIResponderRouterDemo/Pods-UIResponderRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7BD7570017B98A66449BE1 /* libPods-UIResponderRouterDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9235ADEE183D4471D9FE1102 /* libPods-UIResponderRouterDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +145,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDD63392836AFB1A380C682 /* libPods-UIResponderRouterDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216DD1A321E34AE1006D6207 /* type1 */ = {
+			isa = PBXGroup;
+			children = (
+				216DD1A021E3479F006D6207 /* ViewControllerA.h */,
+				216DD1A121E3479F006D6207 /* ViewControllerA.m */,
+				216DD1A421E34B07006D6207 /* RFEventView.h */,
+				216DD1A521E34B07006D6207 /* RFEventView.m */,
+			);
+			path = type1;
+			sourceTree = "<group>";
+		};
+		216DD1A821E375F1006D6207 /* ResponderButton */ = {
+			isa = PBXGroup;
+			children = (
+				216DD1A921E37630006D6207 /* CustomButton.h */,
+				216DD1AA21E37630006D6207 /* CustomButton.m */,
+				216DD1AC21E37673006D6207 /* CustomButtonViewController.h */,
+				216DD1AD21E37673006D6207 /* CustomButtonViewController.m */,
+			);
+			path = ResponderButton;
+			sourceTree = "<group>";
+		};
+		216DD1AF21E42EED006D6207 /* TwoView */ = {
+			isa = PBXGroup;
+			children = (
+				216DD1B021E42F0F006D6207 /* TwoViewViewController.h */,
+				216DD1B121E42F0F006D6207 /* TwoViewViewController.m */,
+				216DD1B321E42F22006D6207 /* RFViewA.h */,
+				216DD1B421E42F22006D6207 /* RFViewA.m */,
+				216DD1B621E42F3A006D6207 /* RFViewB.h */,
+				216DD1B721E42F3A006D6207 /* RFViewB.m */,
+			);
+			path = TwoView;
+			sourceTree = "<group>";
+		};
+		216DD1BD21E46FC3006D6207 /* 视图不响应的情况 */ = {
+			isa = PBXGroup;
+			children = (
+				216DD1BE21E4700D006D6207 /* RFNORespondeStatusViewController.h */,
+				216DD1BF21E4700D006D6207 /* RFNORespondeStatusViewController.m */,
+				216DD1C121E47038006D6207 /* RFLabel.h */,
+				216DD1C221E47038006D6207 /* RFLabel.m */,
+			);
+			path = "视图不响应的情况";
+			sourceTree = "<group>";
+		};
+		216DD1CB21E5831B006D6207 /* 响应链式交互 */ = {
+			isa = PBXGroup;
+			children = (
+				216DD1CC21E58372006D6207 /* ResponderChainUEViewController.h */,
+				216DD1CD21E58372006D6207 /* ResponderChainUEViewController.m */,
+				216D782921E6130B00537A5B /* RFResponderCell2.h */,
+				216D782A21E6130B00537A5B /* RFResponderCell2.m */,
+				21E59FDD21339ED300B27F5C /* RFResponderCell.h */,
+				21E59FDE21339ED300B27F5C /* RFResponderCell.m */,
+				21E59FEE2133E30200B27F5C /* RFHeaderView.h */,
+				21E59FEF2133E30200B27F5C /* RFHeaderView.m */,
+				21E59FE42133A3F300B27F5C /* RFEventProxy.h */,
+				21E59FE52133A3F300B27F5C /* RFEventProxy.m */,
+				21E59FEB2133CF2300B27F5C /* ResponderChainName.h */,
+				21E59FEC2133CF2300B27F5C /* ResponderChainName.m */,
+				216D782C21E6189300537A5B /* NetWork.h */,
+				216D782D21E6189300537A5B /* NetWork.m */,
+				216D782F21E61A4400537A5B /* LikeModel.h */,
+				216D783021E61A4400537A5B /* LikeModel.m */,
+				216D783221E61A7E00537A5B /* LikeCellPresent.h */,
+				216D783321E61A7E00537A5B /* LikeCellPresent.m */,
+			);
+			path = "响应链式交互";
+			sourceTree = "<group>";
+		};
 		21E59F9921339DF100B27F5C = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +230,8 @@
 				21E59FC021339DF300B27F5C /* UIResponderRouterDemoTests */,
 				21E59FCB21339DF300B27F5C /* UIResponderRouterDemoUITests */,
 				21E59FA321339DF100B27F5C /* Products */,
+				93BE13F02D96BC10329B7CA3 /* Pods */,
+				22E06B5D91592C7390437FD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,14 +254,11 @@
 				21E59FA921339DF100B27F5C /* ViewController.m */,
 				21E59FDA21339E2A00B27F5C /* UIResponder+Router.h */,
 				21E59FDB21339E2A00B27F5C /* UIResponder+Router.m */,
-				21E59FDD21339ED300B27F5C /* RFResponderCell.h */,
-				21E59FDE21339ED300B27F5C /* RFResponderCell.m */,
-				21E59FEE2133E30200B27F5C /* RFHeaderView.h */,
-				21E59FEF2133E30200B27F5C /* RFHeaderView.m */,
-				21E59FE42133A3F300B27F5C /* RFEventProxy.h */,
-				21E59FE52133A3F300B27F5C /* RFEventProxy.m */,
-				21E59FEB2133CF2300B27F5C /* ResponderChainName.h */,
-				21E59FEC2133CF2300B27F5C /* ResponderChainName.m */,
+				216DD1CB21E5831B006D6207 /* 响应链式交互 */,
+				216DD1BD21E46FC3006D6207 /* 视图不响应的情况 */,
+				216DD1AF21E42EED006D6207 /* TwoView */,
+				216DD1A821E375F1006D6207 /* ResponderButton */,
+				216DD1A321E34AE1006D6207 /* type1 */,
 				21E59FAB21339DF100B27F5C /* Main.storyboard */,
 				21E59FB121339DF300B27F5C /* Assets.xcassets */,
 				21E59FB321339DF300B27F5C /* LaunchScreen.storyboard */,
@@ -160,6 +287,29 @@
 			path = UIResponderRouterDemoUITests;
 			sourceTree = "<group>";
 		};
+		22E06B5D91592C7390437FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EC46546E93029A169D8DCF4 /* libPods-UIResponderRouterDemo.a */,
+				62E47B9E1B299E45072FCA79 /* libPods-UIResponderRouterDemoTests.a */,
+				BBA69E7D9A8EFA76A884182A /* libPods-UIResponderRouterDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BE13F02D96BC10329B7CA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25932D9C31CE11CA135DC58 /* Pods-UIResponderRouterDemo.debug.xcconfig */,
+				AD996F730FF752BFB873F71C /* Pods-UIResponderRouterDemo.release.xcconfig */,
+				6C71559EE47F05A08C1DCAAA /* Pods-UIResponderRouterDemoTests.debug.xcconfig */,
+				81B62C47A64D5ABE7B081B0D /* Pods-UIResponderRouterDemoTests.release.xcconfig */,
+				94041CD5BC89E19E6E8674FB /* Pods-UIResponderRouterDemoUITests.debug.xcconfig */,
+				2767EBACDB68ACE1C6FAF2BA /* Pods-UIResponderRouterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21E59FD121339DF300B27F5C /* Build configuration list for PBXNativeTarget "UIResponderRouterDemo" */;
 			buildPhases = (
+				F7F18C0B20CFD2CAFE1E11D2 /* [CP] Check Pods Manifest.lock */,
 				21E59F9E21339DF100B27F5C /* Sources */,
 				21E59F9F21339DF100B27F5C /* Frameworks */,
 				21E59FA021339DF100B27F5C /* Resources */,
+				EBFD991E892D1C6817121668 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21E59FD421339DF300B27F5C /* Build configuration list for PBXNativeTarget "UIResponderRouterDemoTests" */;
 			buildPhases = (
+				85E51360B38426470DB49017 /* [CP] Check Pods Manifest.lock */,
 				21E59FB921339DF300B27F5C /* Sources */,
 				21E59FBA21339DF300B27F5C /* Frameworks */,
 				21E59FBB21339DF300B27F5C /* Resources */,
@@ -202,6 +355,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21E59FD721339DF300B27F5C /* Build configuration list for PBXNativeTarget "UIResponderRouterDemoUITests" */;
 			buildPhases = (
+				690C69ED33DA47B91FDD4D6E /* [CP] Check Pods Manifest.lock */,
 				21E59FC421339DF300B27F5C /* Sources */,
 				21E59FC521339DF300B27F5C /* Frameworks */,
 				21E59FC621339DF300B27F5C /* Resources */,
@@ -285,17 +439,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		690C69ED33DA47B91FDD4D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIResponderRouterDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E51360B38426470DB49017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIResponderRouterDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBFD991E892D1C6817121668 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UIResponderRouterDemo/Pods-UIResponderRouterDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIResponderRouterDemo/Pods-UIResponderRouterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F18C0B20CFD2CAFE1E11D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIResponderRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21E59F9E21339DF100B27F5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216DD1AE21E37673006D6207 /* CustomButtonViewController.m in Sources */,
+				216D782E21E6189300537A5B /* NetWork.m in Sources */,
+				216D783421E61A7E00537A5B /* LikeCellPresent.m in Sources */,
+				216DD1AB21E37630006D6207 /* CustomButton.m in Sources */,
 				21E59FDF21339ED300B27F5C /* RFResponderCell.m in Sources */,
+				216DD1A621E34B07006D6207 /* RFEventView.m in Sources */,
+				216DD1CE21E58372006D6207 /* ResponderChainUEViewController.m in Sources */,
+				216D783121E61A4400537A5B /* LikeModel.m in Sources */,
 				21E59FAA21339DF100B27F5C /* ViewController.m in Sources */,
+				216DD1A221E3479F006D6207 /* ViewControllerA.m in Sources */,
+				216DD1C321E47038006D6207 /* RFLabel.m in Sources */,
+				216DD1B521E42F22006D6207 /* RFViewA.m in Sources */,
+				216D782B21E6130B00537A5B /* RFResponderCell2.m in Sources */,
 				21E59FF02133E30200B27F5C /* RFHeaderView.m in Sources */,
 				21E59FDC21339E2A00B27F5C /* UIResponder+Router.m in Sources */,
+				216DD1B821E42F3A006D6207 /* RFViewB.m in Sources */,
+				216DD1B221E42F0F006D6207 /* TwoViewViewController.m in Sources */,
 				21E59FB021339DF100B27F5C /* UIResponderRouterDemo.xcdatamodeld in Sources */,
 				21E59FE62133A3F300B27F5C /* RFEventProxy.m in Sources */,
+				216DD1C021E4700D006D6207 /* RFNORespondeStatusViewController.m in Sources */,
 				21E59FED2133CF2300B27F5C /* ResponderChainName.m in Sources */,
 				21E59FB821339DF300B27F5C /* main.m in Sources */,
 				21E59FA721339DF100B27F5C /* AppDelegate.m in Sources */,
@@ -465,16 +708,14 @@
 		};
 		21E59FD221339DF300B27F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25932D9C31CE11CA135DC58 /* Pods-UIResponderRouterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemo;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riceFun.RFMVC-MVP-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -482,16 +723,14 @@
 		};
 		21E59FD321339DF300B27F5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD996F730FF752BFB873F71C /* Pods-UIResponderRouterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemo;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riceFun.RFMVC-MVP-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -499,16 +738,13 @@
 		};
 		21E59FD521339DF300B27F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C71559EE47F05A08C1DCAAA /* Pods-UIResponderRouterDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,16 +754,13 @@
 		};
 		21E59FD621339DF300B27F5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B62C47A64D5ABE7B081B0D /* Pods-UIResponderRouterDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,15 +770,12 @@
 		};
 		21E59FD821339DF300B27F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94041CD5BC89E19E6E8674FB /* Pods-UIResponderRouterDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,15 +785,12 @@
 		};
 		21E59FD921339DF300B27F5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2767EBACDB68ACE1C6FAF2BA /* Pods-UIResponderRouterDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = UIResponderRouterDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = riceFun.UIResponderRouterDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

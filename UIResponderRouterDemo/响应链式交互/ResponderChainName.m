@@ -12,6 +12,8 @@ NSString * const kRFResponderCellButtonEvent = @"kRFResponderCellButtonEvent";
 NSString * const kRFResponderCellDidselectEvent = @"kRFResponderCellDidselectEvent";
 NSString * const kRFResponderCellHeaderVeiwButtonEvent = @"kRFResponderCellHeaderVeiwButtonEvent";
 
+NSString * const kRFResponderCellDislikeButtonEvent = @"kRFResponderCellDislikeButtonEvent";
+
 @implementation ResponderChainName
 
 @end

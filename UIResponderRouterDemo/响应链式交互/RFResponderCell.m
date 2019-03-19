@@ -35,12 +35,13 @@
 //    self.eventButton.center = self.center;
 }
 
--(void)click_eventButton:(UIButton *)btn{
-    [self.nextResponder routerEventName:kRFResponderCellButtonEvent userInfo:@{@"name":self.eventButton.titleLabel.text}];
+-(void)updateCell:(NSIndexPath *)indexPath{
+    [self.eventButton setTitle:[NSString stringWithFormat:@"buton %ld行",(long)indexPath.row] forState:UIControlStateNormal];
 }
 
--(void)updateCell:(NSIndexPath *)indexPath{
-    [self.eventButton setTitle:[NSString stringWithFormat:@"%ld行，请点击 ",(long)indexPath.row] forState:UIControlStateNormal];
+#pragma mark userEvent
+-(void)click_eventButton:(UIButton *)btn{
+    [self.nextResponder routerEventName:kRFResponderCellButtonEvent userInfo:@{@"name":self.eventButton.titleLabel.text}];
 }
 
 
